@@ -1,7 +1,7 @@
 # Goodberys Flavor of the Day
 Fun Module that I am creating to parse the Flavor of the Day calendar from the Goodberry Ice Cream Website. https://www.goodberrys.com/flavor-of-the-day
 
-You setup the free vision api [here]https://azure.microsoft.com/en-us/free/
+You setup the free vision api: https://azure.microsoft.com/en-us/free/
 
 You will need both a vision api app name and your api subscription key.
 
