@@ -12,6 +12,7 @@ jobs:
       run: pwsh -File gitaction.ps1
       env:
         API_KEY: ${{ secrets.Azure_Token }}
+        APP_Name: ${{ secrets.Azure_APPName }}
     - name: Commit files
       run: |
         git config --local user.email "actions@github.com"
