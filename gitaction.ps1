@@ -150,7 +150,7 @@ Function Get-FotD {
 $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
 $apikey = $env:API_KEY
-$appname = $env:APP_NAME
+$appname = $env:APP_Name
 $Params = @{
     apikey = $apikey
     appname = $appname
@@ -164,4 +164,4 @@ $Params = @{
     FoM = $FoM.Day
     Date = $FoM.Date
 }
-Get-Flavors @Params | ConvertTo-Json | out-file ".\$(get-date $($fom.date) -format yyyyMM)flavors.json"
+Get-Flavors @Params | ConvertTo-Json | out-file ".\$(get-date $($fom.date) -format yyyyMM)flavors.json" -Force
