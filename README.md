@@ -9,10 +9,10 @@ I may create a module that queries this json file but you can easily pull the fl
 invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json | where date -eq (get-date -format MMddyyyy)
 ```
 
-#### Want the Flavor for tomorrow? (use the following command and adjust the Add Days value)
+#### Want the Flavor for tomorrow? (You need to adjust the Add Days in two locations and you can get the flavor for a week from now. If that is next month the calendar will need to be available on Goodberry's website.)
 
 ```
-invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json | where date -eq (get-date $(get-date).AddDays(1) -format MMddyyyy)
+invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date $(get-date).AddDays(1) -format yyyyMM)flavors.json") | convertfrom-json | where date -eq (get-date $(get-date).AddDays(1) -format MMddyyyy)
 ```
 
 #### When is Peanut Butter being served this Month? (You can do a Where and do a string match to find a flavor)
