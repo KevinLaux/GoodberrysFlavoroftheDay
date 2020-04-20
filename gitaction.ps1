@@ -149,8 +149,8 @@ Function Get-FotD {
 }
 $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
-$apikey = $args[0]
-$appname = $args[1]
+$apikey = $env:API_KEY
+$appname = $env:APP_NAME
 $Params = @{
     apikey = $apikey
     appname = $appname
