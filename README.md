@@ -11,15 +11,15 @@ invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavor
 ```
 invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json | where date -eq (get-date -format MMddyyyy)
 ```
-## Want the Flavor for tomorrow? (use the following command and adjust the Add Days value)
+### Want the Flavor for tomorrow? (use the following command and adjust the Add Days value)
 ```
 invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json | where date -eq (get-date $(get-date).AddDays(1) -format MMddyyyy)
 ```
-## When is Peanut Butter being served this Month? (You can do a Where and do a string match to find a flavor)
+### When is Peanut Butter being served this Month? (You can do a Where and do a string match to find a flavor)
 
 ```invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json | where Flavor -match 'Peanut Butter'
 ```
-## If you just want to pull the Json into PowerShell and work with the flavor objects you can run the following code and assign it to a variable:
+### If you just want to pull the Json into PowerShell and work with the flavor objects you can run the following code and assign it to a variable:
 ```
 $somevariable = invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json
 '''
