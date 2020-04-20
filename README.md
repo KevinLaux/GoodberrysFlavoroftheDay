@@ -25,7 +25,7 @@ invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavor
 
 ```
 invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json
-'''
+```
 
 #### If you have any suggestion or want to contribute let me know you can tweet me at @rsrychro
 
