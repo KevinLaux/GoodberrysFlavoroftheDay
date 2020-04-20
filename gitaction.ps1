@@ -23,7 +23,7 @@ function Invoke-OCR{
     $batchuri = $Response.'Operation-Location'.split("/") | Select-Object -Last 1
     Do{
         Start-Sleep -Seconds 1
-        $reply = Invoke-RestMethod $("https://" + $appname + ".cognitiveservices.azure.com/vision/v2.0/read/operations/$batchuri") -Method GET -Headers @{'Ocp-Apim-Subscription-Key' = '34103018edfb4b99acc8a73827856872'}
+        $reply = Invoke-RestMethod $("https://" + $appname + ".cognitiveservices.azure.com/vision/v2.0/read/operations/$batchuri") -Method GET -Headers @{'Ocp-Apim-Subscription-Key' = $apikey}
     }
     Until($reply.status -eq 'Succeeded')
     Return $reply
