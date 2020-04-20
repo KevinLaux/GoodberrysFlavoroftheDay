@@ -24,7 +24,7 @@ invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavor
 #### If you just want to pull the Json into PowerShell and work with the flavor objects you can run the following code and assign it to a variable:
 
 ```
-$somevariable = invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json
+invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json
 '''
 
 
