@@ -95,58 +95,6 @@ function Get-Flavors{
     }
     $FlavorList
 }
-Function Get-FotD {
-    #much work is needed
-    [CmdletBinding(DefaultParameterSetName='Date')]
-    [OutputType([PSCustomObject])]
-    Param
-    (
-    [Parameter(ValueFromPipeline=$true,
-        ValueFromPipelineByPropertyName=$true,  
-        Position=0,
-        ParameterSetName='Date')]
-    [DateTime[]]$Dates = (Get-Date),
-    [Parameter(ParameterSetName='Flavor')]
-    #Would like to validate against Full Name Flavors or short names[ValidateSet($flavors)]
-    [String[]]$Flavor,
-    [Parameter(ParameterSetName='All')]
-    [Switch]$All
-    )
-    Begin {
-        Write-Verbose "[$((Get-Date).TimeofDay) BEGIN  ] Starting: $($MyInvocation.Mycommand)"
-        $Script:OCR = $(InvokeOCR).recognitionResults.lines
-        $Script:FoMS = GetFirstoftheMonthSquare $OCR
-        $Script:Flavorlist = GetFlavors $OCR $Positions $Flavors $FoMs.Day $FoMs.Date
-        $return = @()
-    } #begin
-
-    Process {
-        if($Date){
-            foreach($D in $Dates){
-                foreach($F in $Script:Flavorlist){
-                    $compdate = $(get-date ($D) -Format ddMMyyyy)
-                    $flavordate = $(get-date ($F.date) -Format ddMMyyyy)
-                    if($compdate -eq $F){$return += $F}
-                }
-            }
-        }
-        elseif($Flavor){
-            foreach($fl in $flavor){
-                foreach($F in $Script:Flavorlist){
-                    if($F.Flavor -match $fl){$return+=$F}
-                }
-            }
-        }
-        elseif($All){
-            $return += $Script:Flavorlist
-        }
-        Return $return
-    }
-    End {
-        Write-Verbose "[$((Get-Date).TimeofDay) END    ] Ending: $($MyInvocation.Mycommand)"
-    } #end
-
-}
 $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
 $apikey = $env:API_KEY
