@@ -85,6 +85,11 @@
     "Position": "23"
   },
   {
+    "Date": "06182020",
+    "Flavor": "Blueberry",
+    "Position": "24"
+  },
+  {
     "Date": "06192020",
     "Flavor": "Banana Pudding",
     "Position": "25"
@@ -138,5 +143,10 @@
     "Date": "06292020",
     "Flavor": "Burgundy Cherry",
     "Position": "41"
+  },
+  {
+    "Date": "06302020",
+    "Flavor": "Pina Colada",
+    "Position": "42"
   }
 ]
