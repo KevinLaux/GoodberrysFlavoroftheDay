@@ -99,9 +99,11 @@ $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
 $apikey = $env:API_KEY
 $appname = $env:APP_Name
+##Run URL parse here, determine how many months are showing Loop the rest for each month
 $Params = @{
     apikey = $apikey
     appname = $appname
+    #Add Param to take URL parsed from above
 }
 $results = (Invoke-OCR @params).recognitionResults.lines
 $FoM = Get-FoM $results
