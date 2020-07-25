@@ -20,6 +20,7 @@ jobs:
         git config --local user.name "ghactions"
         git add .
         git commit -m "Update flavor of the day" -a
+        Exit 0
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
