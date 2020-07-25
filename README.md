@@ -5,6 +5,7 @@ I have changed this app to instead run as a Github Action that creates a json fi
 
 I may create a module that queries this json file but you can easily pull the flavor of the day by running one line of code in PowerShell:
 
+#### Whats the flavor of the day today?
 ```PowerShell
 $($(invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberrysFlavoroftheDay/master/$(get-date -format yyyyMM)flavors.json") | convertfrom-json) | where date -eq (get-date -format MMddyyyy)).flavor
 ```
