@@ -1,49 +1,3 @@
-function Invoke-OCR{
-    Param
-    (
-        # Token provided by VisionApp Api
-        [Parameter(Mandatory=$true, Position=0)]
-        $apikey,
-        # Name of Vision App service created in Azure
-        [Parameter(Mandatory=$true, Position=1)]
-        $appname
-    )
-    $jpgurl = $(Invoke-WebRequest 'https://www.goodberrys.com/flavor-of-the-day').Content.split("we can make virtually any flavor you're looking for on any day.")[1].split("<!--FOOTER WITH OPEN BLOCK FIELD-->")[0].split('<img src="')[1].split('"')[0]
-    $body = @{
-        'url' = $jpgurl
-    }
-    $Params = @{
-        uri = "https://" + $appname + ".cognitiveservices.azure.com/vision/v2.0/read/core/asyncBatchAnalyze"
-        method = "POST"
-        contenttype ='application/json'
-        headers = @{'Ocp-Apim-Subscription-Key' = $apikey}
-        body = $(ConvertTo-Json $body)
-    }
-    Invoke-RestMethod @Params -ResponseHeadersVariable response -StatusCodeVariable status
-    $batchuri = $Response.'Operation-Location'.split("/") | Select-Object -Last 1
-    Do{
-        Start-Sleep -Seconds 1
-        $reply = Invoke-RestMethod $("https://" + $appname + ".cognitiveservices.azure.com/vision/v2.0/read/operations/$batchuri") -Method GET -Headers @{'Ocp-Apim-Subscription-Key' = $apikey}
-    }
-    Until($reply.status -eq 'Succeeded')
-    Return $reply
-}
-function Get-FoM{
-    [cmdletbinding()]
-    Param($OCR)
-    #Get the Month in the OCR and find out which day the first day of the month lands on
-    1..-10 | ForEach-Object {
-        if($OCR.Text -contains $(Get-Date (Get-Date).AddMonths($_) -UFormat %B)){
-            #create object to return day value and month
-            
-            $Return = [PSCustomObject]@{
-                Date = (Get-Date -Day 1 -Hour 0 -Minute 0 -Second 0).AddMonths($_)
-                Day = Get-Date (Get-Date).AddMonths($_) -Day 1 -UFormat %u
-            }
-            Return $Return
-        }
-    }
-}
 function Get-Flavors{
     [cmdletbinding()]
     Param
@@ -95,18 +49,49 @@ function Get-Flavors{
     }
     $FlavorList
 }
+$jpgurl = $((Invoke-WebRequest 'https://www.goodberrys.com/flavor-of-the-day').images | Where-Object 'data-src' -NotMatch 'Locations').'data-src'
+$uri = "https://$appname.cognitiveservices.azure.com/vision/v2.0/read/core/asyncBatchAnalyze"
+$body = @{
+    "url" = "$jpgurl"
+}
+$Params = @{
+    uri = $uri
+    method = "POST"
+    contenttype ='application/json'
+    headers = @{'Ocp-Apim-Subscription-Key' = $apikey}
+    body = $(ConvertTo-Json $body)
+    responseheadersvariable = 'response'
+    statuscodevariable = 'status'
+}
+Invoke-RestMethod @Params
+$Params = @{
+    uri = "$($response.'Operation-Location')"
+    method = "GET"
+    headers = @{'Ocp-Apim-Subscription-Key' = $apikey}
+  }
+Do{
+    Start-Sleep -Seconds 1
+    $reply = Invoke-RestMethod @Params
+}
+Until($reply.status -eq 'Succeeded')
+$OCR = $reply.recognitionResults.lines
+#Get the Month in the OCR and find out which day the first day of the month lands on
+1..-10 | ForEach-Object {
+    if($OCR.Text -contains $(Get-Date (Get-Date).AddMonths($_) -UFormat %B)){
+        #create object to return day value and month
+        $FoM = [PSCustomObject]@{
+            Date = (Get-Date -Day 1 -Hour 0 -Minute 0 -Second 0).AddMonths($_)
+            Day = Get-Date (Get-Date).AddMonths($_) -Day 1 -UFormat %u
+        }
+    }
+}
+
 $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
 $apikey = $env:API_KEY
 $appname = $env:APP_Name
 $Params = @{
-    apikey = $apikey
-    appname = $appname
-}
-$results = (Invoke-OCR @params).recognitionResults.lines
-$FoM = Get-FoM $results
-$Params = @{
-    OCR = $results
+    OCR = $OCR
     positions = $positions
     flavors = $flavors
     FoM = $FoM.Day
