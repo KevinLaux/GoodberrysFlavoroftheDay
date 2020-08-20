@@ -26,8 +26,8 @@ function Get-Flavors{
                     $itemposy = $item.boundingBox[1]
                     $posy = $Position.TopY
                     $posymax = [Int]$($Position.TopY) + 99
-                    If($($itemposx -gt $posx) -and $($itemposx -lt $posxmax)){
-                        If($($itemposy -gt $posy) -and $($itemposy -lt $posymax)){
+                    If($($itemposx -ge $posx) -and $($itemposx -le $posxmax)){
+                        If($($itemposy -ge $posy) -and $($itemposy -le $posymax)){
                             foreach($f in $flavors){
                                 if($item.text -match [regex]$($f.short)){
                                     $flavor = $f.flavor
@@ -50,7 +50,7 @@ function Get-Flavors{
     $FlavorList
 }
 $jpgurl = $((Invoke-WebRequest 'https://www.goodberrys.com/flavor-of-the-day').images | Where-Object 'data-src' -NotMatch 'Locations').'data-src'
-$uri = "https://$appname.cognitiveservices.azure.com/vision/v2.0/read/core/asyncBatchAnalyze"
+$uri = "https://$appname.cognitiveservices.azure.com/vision/v3.0/read/analyze?language=en"
 $body = @{
     "url" = "$jpgurl"
 }
@@ -74,7 +74,7 @@ Do{
     $reply = Invoke-RestMethod @Params
 }
 Until($reply.status -eq 'Succeeded')
-$OCR = $reply.recognitionResults.lines
+$OCR = $reply.analyzeResult.readResults.lines
 #Get the Month in the OCR and find out which day the first day of the month lands on
 1..-10 | ForEach-Object {
     if($OCR.Text -contains $(Get-Date (Get-Date).AddMonths($_) -UFormat %B)){
