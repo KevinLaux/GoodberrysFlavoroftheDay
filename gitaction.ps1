@@ -88,8 +88,8 @@ $OCR = $reply.analyzeResult.readResults.lines
 
 $positions = Import-Csv .\assets\positions.csv
 $flavors = Import-Csv .\assets\flavors.csv
-$apikey = $env:API_KEY
-$appname = $env:APP_Name
+$apikey = $env:AZURE_TOKEN
+$appname = $env:AZURE_APPNAME
 $Params = @{
     OCR = $OCR
     positions = $positions
