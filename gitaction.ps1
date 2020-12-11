@@ -1,3 +1,9 @@
+$positions = Import-Csv .\assets\positions.csv
+$flavors = Import-Csv .\assets\flavors.csv
+$apikey = $env:API_KEY
+$appname = $env:APP_Name
+$jpgurl = $((Invoke-WebRequest 'https://www.goodberrys.com/flavor-of-the-day').images | Where-Object 'data-src' -NotMatch 'Locations').'data-src'
+$uri = "https://$appname.cognitiveservices.azure.com/vision/v3.0/read/analyze?language=en"
 function Get-Flavors{
     [cmdletbinding()]
     Param
@@ -49,8 +55,6 @@ function Get-Flavors{
     }
     $FlavorList
 }
-$jpgurl = $((Invoke-WebRequest 'https://www.goodberrys.com/flavor-of-the-day').images | Where-Object 'data-src' -NotMatch 'Locations').'data-src'
-$uri = "https://$appname.cognitiveservices.azure.com/vision/v3.0/read/analyze?language=en"
 $body = @{
     "url" = "$jpgurl"
 }
@@ -85,11 +89,6 @@ $OCR = $reply.analyzeResult.readResults.lines
         }
     }
 }
-
-$positions = Import-Csv .\assets\positions.csv
-$flavors = Import-Csv .\assets\flavors.csv
-$apikey = $env:AZURE_TOKEN
-$appname = $env:AZURE_APPNAME
 $Params = @{
     OCR = $OCR
     positions = $positions
