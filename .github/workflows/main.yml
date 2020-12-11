@@ -1,9 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 name: FotD
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 * * * *'
+  issues: 
+    types: reopened
 jobs:
   build:
     runs-on: windows-latest
