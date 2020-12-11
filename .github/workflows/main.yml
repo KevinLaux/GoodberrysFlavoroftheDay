@@ -3,7 +3,7 @@ name: FotD
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '46 * * * *'
+    - cron:  '50 * * * *'
 jobs:
   build:
     runs-on: windows-latest
