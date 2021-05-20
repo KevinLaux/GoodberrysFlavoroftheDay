@@ -1,8 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '6 22 * * *'
+  issues: 
+    types: reopened
 jobs:
   build:
     runs-on: windows-latest
