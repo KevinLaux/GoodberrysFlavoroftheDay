@@ -1,0 +1,32 @@
+[
+  {
+    "Date": "05012022",
+    "Flavor": "Sweet Cream",
+    "Position": "10"
+  },
+  {
+    "Date": "05032022",
+    "Flavor": "S'mores",
+    "Position": "12"
+  },
+  {
+    "Date": "05062022",
+    "Flavor": "Salted Caramel",
+    "Position": "15"
+  },
+  {
+    "Date": "05152022",
+    "Flavor": "Strawberry",
+    "Position": "30"
+  },
+  {
+    "Date": "05172022",
+    "Flavor": "Pina Colada",
+    "Position": "32"
+  },
+  {
+    "Date": "05202022",
+    "Flavor": "Chocolate Chip Cookie Dough",
+    "Position": "35"
+  }
+]
