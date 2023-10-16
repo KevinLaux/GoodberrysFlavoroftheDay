@@ -7,25 +7,25 @@ I may create a module that queries this json file but you can easily pull the fl
 
 #### Whats the flavor of the day today?
 ```PowerShell
-$($(invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberrysFlavoroftheDay/master/allflavors.json") | convertfrom-json) | where date -eq (get-date -format MMddyyyy)).flavor
+$($(iwr "https://bit.ly/goodberryfotd" | convertfrom-json) | where date -eq (get-date -format MMddyyyy)).flavor
 ```
 
 #### Want the Flavor for tomorrow? (You need to adjust the Add Days in two locations and you can get the flavor for a week from now. If that is next month the calendar will need to be available on Goodberry's website.)
 
 ```PowerShell
-$($(invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberrysFlavoroftheDay/master/allflavors.json") | convertfrom-json) | where date -eq $(get-date $(get-date).AddDays(1) -format MMddyyyy)).flavor
+$($(iwr "https://bit.ly/goodberryfotd" | convertfrom-json) | where date -eq $(get-date $(get-date).AddDays(1) -format MMddyyyy)).flavor
 ```
 
 #### When is Peanut Butter being served this Month? (You can do a Where and do a string match to find a flavor)
 
 ```PowerShell
-$(invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberrysFlavoroftheDay/master/allflavors.json") | convertfrom-json) | where Flavor -match "Peanut Butter"
+iwr "https://bit.ly/goodberryfotd" | convertfrom-json | where Flavor -match "Peanut Butter"
 ```
 
 #### If you just want to pull the Json into PowerShell and work with the flavor objects you can run the following code and assign it to a variable:
 
 ```PowerShell
-invoke-webrequest $("https://raw.githubusercontent.com/KevinLaux/GoodberrysFlavoroftheDay/master/allflavors.json") | convertfrom-json
+iwr "https://bit.ly/goodberryfotd" | convertfrom-json
 ```
 
 #### If you have any suggestion or want to contribute let me know you can tweet me @itsKevinLaux
