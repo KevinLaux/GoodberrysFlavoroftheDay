@@ -1780,8 +1780,8 @@
     "Position": "5"
   },
   {
-    "Flavor": "Jamocha",
-    "Date": "08062023"
+    "Date": "08062023",
+    "Flavor": "Jamocha"
   },
   {
     "Date": "08072020",
@@ -1794,8 +1794,8 @@
     "Position": "6"
   },
   {
-    "Flavor": "Burgundy Cherry",
-    "Date": "08072023"
+    "Date": "08072023",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "08082020",
@@ -1808,8 +1808,8 @@
     "Position": "10"
   },
   {
-    "Flavor": "Strawberry",
-    "Date": "08082023"
+    "Date": "08082023",
+    "Flavor": "Strawberry"
   },
   {
     "Date": "08092020",
@@ -1827,8 +1827,8 @@
     "Position": "12"
   },
   {
-    "Flavor": "Chocolate Malt",
-    "Date": "08092023"
+    "Date": "08092023",
+    "Flavor": "Chocolate Malt"
   },
   {
     "Date": "08102020",
@@ -1841,8 +1841,8 @@
     "Position": "12"
   },
   {
-    "Flavor": "S’Mores",
-    "Date": "08102023"
+    "Date": "08102023",
+    "Flavor": "S’Mores"
   },
   {
     "Date": "08112020",
@@ -1855,8 +1855,8 @@
     "Position": "13"
   },
   {
-    "Flavor": "Key Lime",
-    "Date": "08112023"
+    "Date": "08112023",
+    "Flavor": "Key Lime"
   },
   {
     "Date": "08122020",
@@ -1869,8 +1869,8 @@
     "Position": "15"
   },
   {
-    "Flavor": "Banana Pudding",
-    "Date": "08122023"
+    "Date": "08122023",
+    "Flavor": "Banana Pudding"
   },
   {
     "Date": "08132020",
@@ -1883,8 +1883,8 @@
     "Position": "15"
   },
   {
-    "Flavor": "Coconut",
-    "Date": "08132023"
+    "Date": "08132023",
+    "Flavor": "Coconut"
   },
   {
     "Date": "08142020",
@@ -1897,8 +1897,8 @@
     "Position": "16"
   },
   {
-    "Flavor": "Raspberry",
-    "Date": "08142023"
+    "Date": "08142023",
+    "Flavor": "Raspberry"
   },
   {
     "Date": "08152020",
@@ -1911,8 +1911,8 @@
     "Position": "20"
   },
   {
-    "Flavor": "Butter Pecan",
-    "Date": "08152023"
+    "Date": "08152023",
+    "Flavor": "Butter Pecan"
   },
   {
     "Date": "08162020",
@@ -1925,8 +1925,8 @@
     "Position": "21"
   },
   {
-    "Flavor": "Blueberry",
-    "Date": "08162023"
+    "Date": "08162023",
+    "Flavor": "Blueberry"
   },
   {
     "Date": "08172020",
@@ -1939,8 +1939,8 @@
     "Position": "22"
   },
   {
-    "Flavor": "Nutella",
-    "Date": "08172023"
+    "Date": "08172023",
+    "Flavor": "Nutella"
   },
   {
     "Date": "08182020",
@@ -1953,8 +1953,8 @@
     "Position": "23"
   },
   {
-    "Flavor": "Lemon",
-    "Date": "08182023"
+    "Date": "08182023",
+    "Flavor": "Lemon"
   },
   {
     "Date": "08192020",
@@ -1962,8 +1962,8 @@
     "Position": "33"
   },
   {
-    "Flavor": "Mint Chocolate Chip",
-    "Date": "08192023"
+    "Date": "08192023",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
     "Date": "08202020",
@@ -1976,8 +1976,8 @@
     "Position": "25"
   },
   {
-    "Flavor": "Salted Caramel",
-    "Date": "08202023"
+    "Date": "08202023",
+    "Flavor": "Salted Caramel"
   },
   {
     "Date": "08212020",
@@ -1995,8 +1995,8 @@
     "Position": "30"
   },
   {
-    "Flavor": "Peanut Butter",
-    "Date": "08212023"
+    "Date": "08212023",
+    "Flavor": "Peanut Butter"
   },
   {
     "Date": "08222020",
@@ -2009,8 +2009,8 @@
     "Position": "30"
   },
   {
-    "Flavor": "Peach",
-    "Date": "08222023"
+    "Date": "08222023",
+    "Flavor": "Peach"
   },
   {
     "Date": "08232020",
@@ -2028,8 +2028,8 @@
     "Position": "32"
   },
   {
-    "Flavor": "Burgundy Cherry",
-    "Date": "08232023"
+    "Date": "08232023",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "08242020",
@@ -2042,8 +2042,8 @@
     "Position": "32"
   },
   {
-    "Flavor": "Pistachio",
-    "Date": "08242023"
+    "Date": "08242023",
+    "Flavor": "Pistachio"
   },
   {
     "Date": "08252020",
@@ -2056,8 +2056,8 @@
     "Position": "33"
   },
   {
-    "Flavor": "Strawberry",
-    "Date": "08252023"
+    "Date": "08252023",
+    "Flavor": "Strawberry"
   },
   {
     "Date": "08262020",
@@ -2070,8 +2070,8 @@
     "Position": "35"
   },
   {
-    "Flavor": "Chocolate Chip Cookie Dough",
-    "Date": "08262023"
+    "Date": "08262023",
+    "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
     "Date": "08272020",
