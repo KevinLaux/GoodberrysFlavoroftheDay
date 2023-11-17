@@ -2369,12 +2369,12 @@
     "Flavor": "Pumpkin"
   },
   {
-    "Flavor": "Sweet Cream",
-    "Date": "10012023"
+    "Date": "10012023",
+    "Flavor": "Sweet Cream"
   },
   {
-    "Flavor": "Peanut Butter",
-    "Date": "10022023"
+    "Date": "10022023",
+    "Flavor": "Peanut Butter"
   },
   {
     "Date": "10032021",
@@ -2382,8 +2382,8 @@
     "Position": "50"
   },
   {
-    "Flavor": "Chocolate Malt",
-    "Date": "10032023"
+    "Date": "10032023",
+    "Flavor": "Chocolate Malt"
   },
   {
     "Date": "10042021",
@@ -2391,8 +2391,8 @@
     "Position": "51"
   },
   {
-    "Flavor": "Strawberry",
-    "Date": "10042023"
+    "Date": "10042023",
+    "Flavor": "Strawberry"
   },
   {
     "Date": "10052021",
@@ -2400,8 +2400,8 @@
     "Position": "52"
   },
   {
-    "Flavor": "Burgundy Cherry",
-    "Date": "10052023"
+    "Date": "10052023",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "10062021",
@@ -2409,12 +2409,12 @@
     "Position": "53"
   },
   {
-    "Flavor": "Salted Caramel",
-    "Date": "10062023"
+    "Date": "10062023",
+    "Flavor": "Salted Caramel"
   },
   {
-    "Flavor": "Chocolate Chip Cookie Dough",
-    "Date": "10072023"
+    "Date": "10072023",
+    "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
     "Date": "10082021",
@@ -2422,36 +2422,36 @@
     "Position": "55"
   },
   {
-    "Flavor": "Pumpkin",
-    "Date": "10082023"
+    "Date": "10082023",
+    "Flavor": "Pumpkin"
   },
   {
-    "Flavor": "Butter Pecan",
-    "Date": "10092023"
+    "Date": "10092023",
+    "Flavor": "Butter Pecan"
   },
   {
-    "Flavor": "Cinnamon Bun",
-    "Date": "10102023"
+    "Date": "10102023",
+    "Flavor": "Cinnamon Bun"
   },
   {
-    "Flavor": "Jamocha",
-    "Date": "10112023"
+    "Date": "10112023",
+    "Flavor": "Jamocha"
   },
   {
-    "Flavor": "S’mores",
-    "Date": "10122023"
+    "Date": "10122023",
+    "Flavor": "S’mores"
   },
   {
-    "Flavor": "Mint Chocolate Chip",
-    "Date": "10132023"
+    "Date": "10132023",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
-    "Flavor": "Nutella",
-    "Date": "10142023"
+    "Date": "10142023",
+    "Flavor": "Nutella"
   },
   {
-    "Flavor": "Strawberry",
-    "Date": "10152023"
+    "Date": "10152023",
+    "Flavor": "Strawberry"
   },
   {
     "Date": "10162022",
@@ -2459,8 +2459,8 @@
     "Position": "30"
   },
   {
-    "Flavor": "Pistachio",
-    "Date": "10162023"
+    "Date": "10162023",
+    "Flavor": "Pistachio"
   },
   {
     "Date": "10172021",
@@ -2468,8 +2468,8 @@
     "Position": "30"
   },
   {
-    "Flavor": "Burgundy Cherry",
-    "Date": "10172023"
+    "Date": "10172023",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "10182022",
@@ -2477,8 +2477,8 @@
     "Position": "32"
   },
   {
-    "Flavor": "Pumpkin",
-    "Date": "10182023"
+    "Date": "10182023",
+    "Flavor": "Pumpkin"
   },
   {
     "Date": "10192021",
@@ -2486,12 +2486,12 @@
     "Position": "32"
   },
   {
-    "Flavor": "Peanut Butter",
-    "Date": "10192023"
+    "Date": "10192023",
+    "Flavor": "Peanut Butter"
   },
   {
-    "Flavor": "Maple Almond",
-    "Date": "10202023"
+    "Date": "10202023",
+    "Flavor": "Maple Almond"
   },
   {
     "Date": "10212022",
@@ -2499,8 +2499,8 @@
     "Position": "35"
   },
   {
-    "Flavor": "Spiced Apple Cider",
-    "Date": "10212023"
+    "Date": "10212023",
+    "Flavor": "Spiced Apple Cider"
   },
   {
     "Date": "10222021",
@@ -2508,60 +2508,60 @@
     "Position": "35"
   },
   {
-    "Flavor": "Cinnamon Bun",
-    "Date": "10222023"
+    "Date": "10222023",
+    "Flavor": "Cinnamon Bun"
   },
   {
-    "Flavor": "Mint Chocolate Chip",
-    "Date": "10232023"
+    "Date": "10232023",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
-    "Flavor": "Salted Caramel",
-    "Date": "10242023"
+    "Date": "10242023",
+    "Flavor": "Salted Caramel"
   },
   {
-    "Flavor": "S’mores",
-    "Date": "10252023"
+    "Date": "10252023",
+    "Flavor": "S’mores"
   },
   {
-    "Flavor": "Butter Pecan",
-    "Date": "10262023"
+    "Date": "10262023",
+    "Flavor": "Butter Pecan"
   },
   {
-    "Flavor": "Chocolate Chip Cookie Dough",
-    "Date": "10272023"
+    "Date": "10272023",
+    "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
-    "Flavor": "Pumpkin",
-    "Date": "10282023"
+    "Date": "10282023",
+    "Flavor": "Pumpkin"
   },
   {
-    "Flavor": "Spiced Apple Cider",
-    "Date": "10292023"
+    "Date": "10292023",
+    "Flavor": "Spiced Apple Cider"
   },
   {
-    "Flavor": "Jamocha",
-    "Date": "10302023"
+    "Date": "10302023",
+    "Flavor": "Jamocha"
   },
   {
-    "Flavor": "Pumpkin",
-    "Date": "10312023"
+    "Date": "10312023",
+    "Flavor": "Pumpkin"
   },
   {
-    "Flavor": "Sweet Cream",
-    "Date": "11012023"
+    "Date": "11012023",
+    "Flavor": "Sweet Cream"
   },
   {
-    "Flavor": "Strawberry",
-    "Date": "11022023"
+    "Date": "11022023",
+    "Flavor": "Strawberry"
   },
   {
-    "Flavor": "Mint Chocolate Chip",
-    "Date": "11032023"
+    "Date": "11032023",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
-    "Flavor": "Salted Caramel",
-    "Date": "11042023"
+    "Date": "11042023",
+    "Flavor": "Salted Caramel"
   },
   {
     "Date": "11092021",
