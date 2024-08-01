@@ -1874,9 +1874,17 @@
     "Position": "12"
   },
   {
+    "Flavor": "Chocolate Malt",
+    "Date": "07072024"
+  },
+  {
     "Date": "07082020",
     "Flavor": "Jamocha",
     "Position": "13"
+  },
+  {
+    "Flavor": "Salted Caramel",
+    "Date": "07082024"
   },
   {
     "Date": "07092020",
@@ -1884,9 +1892,17 @@
     "Position": "14"
   },
   {
+    "Flavor": "Burgundy Cherry",
+    "Date": "07092024"
+  },
+  {
     "Date": "07102020",
     "Flavor": "Mint Chocolate Chip",
     "Position": "15"
+  },
+  {
+    "Flavor": "Nutella",
+    "Date": "07102024"
   },
   {
     "Date": "07112020",
@@ -1894,9 +1910,17 @@
     "Position": "16"
   },
   {
+    "Flavor": "Jamocha",
+    "Date": "07112024"
+  },
+  {
     "Date": "07122020",
     "Flavor": "Blueberry",
     "Position": "20"
+  },
+  {
+    "Flavor": "Peach",
+    "Date": "07122024"
   },
   {
     "Date": "07132020",
@@ -1904,9 +1928,17 @@
     "Position": "21"
   },
   {
+    "Flavor": "Mint Chocolate Chip",
+    "Date": "07132024"
+  },
+  {
     "Date": "07142020",
     "Flavor": "Chocolate Malt",
     "Position": "22"
+  },
+  {
+    "Flavor": "Pina Colada",
+    "Date": "07142024"
   },
   {
     "Date": "07152020",
@@ -1914,9 +1946,17 @@
     "Position": "23"
   },
   {
+    "Flavor": "Pistachio",
+    "Date": "07152024"
+  },
+  {
     "Date": "07162020",
     "Flavor": "Peanut Butter",
     "Position": "24"
+  },
+  {
+    "Flavor": "Blueberry",
+    "Date": "07162024"
   },
   {
     "Date": "07172020",
@@ -1929,9 +1969,17 @@
     "Position": "30"
   },
   {
+    "Flavor": "Cinnamon Bun",
+    "Date": "07172024"
+  },
+  {
     "Date": "07182020",
     "Flavor": "Salted Caramel",
     "Position": "26"
+  },
+  {
+    "Flavor": "S’Mores",
+    "Date": "07182024"
   },
   {
     "Date": "07192020",
@@ -1944,14 +1992,26 @@
     "Position": "32"
   },
   {
+    "Flavor": "Butter Pecan",
+    "Date": "07192024"
+  },
+  {
     "Date": "07202020",
     "Flavor": "Butter Pecan",
     "Position": "31"
   },
   {
+    "Flavor": "Chocolate Chip Cookie Dough",
+    "Date": "07202024"
+  },
+  {
     "Date": "07212020",
     "Flavor": "Strawberry",
     "Position": "32"
+  },
+  {
+    "Flavor": "Raspberry",
+    "Date": "07212024"
   },
   {
     "Date": "07222020",
@@ -1964,9 +2024,17 @@
     "Position": "35"
   },
   {
+    "Flavor": "Key Lime",
+    "Date": "07222024"
+  },
+  {
     "Date": "07232020",
     "Flavor": "Lemon",
     "Position": "34"
+  },
+  {
+    "Flavor": "Blackberry",
+    "Date": "07232024"
   },
   {
     "Date": "07242020",
@@ -1974,9 +2042,17 @@
     "Position": "35"
   },
   {
+    "Flavor": "Jamocha",
+    "Date": "07242024"
+  },
+  {
     "Date": "07252020",
     "Flavor": "Nutella",
     "Position": "36"
+  },
+  {
+    "Flavor": "Lemon",
+    "Date": "07252024"
   },
   {
     "Date": "07262020",
@@ -1984,9 +2060,17 @@
     "Position": "40"
   },
   {
+    "Flavor": "Salted Caramel",
+    "Date": "07262024"
+  },
+  {
     "Date": "07272020",
     "Flavor": "Raspberry",
     "Position": "41"
+  },
+  {
+    "Flavor": "Banana Pudding",
+    "Date": "07272024"
   },
   {
     "Date": "07282020",
@@ -1994,9 +2078,17 @@
     "Position": "42"
   },
   {
+    "Flavor": "Strawberry",
+    "Date": "07282024"
+  },
+  {
     "Date": "07292020",
     "Flavor": "Cake Batter",
     "Position": "43"
+  },
+  {
+    "Flavor": "Peach",
+    "Date": "07292024"
   },
   {
     "Date": "07302020",
@@ -2004,9 +2096,17 @@
     "Position": "44"
   },
   {
+    "Flavor": "Chocolate Malt",
+    "Date": "07302024"
+  },
+  {
     "Date": "07312020",
     "Flavor": "Key Lime",
     "Position": "45"
+  },
+  {
+    "Flavor": "Mint Chocolate Chip",
+    "Date": "07312024"
   },
   {
     "Date": "08012020",
@@ -2023,6 +2123,10 @@
     "Date": "08012023"
   },
   {
+    "Flavor": "Sweet Cream",
+    "Date": "08012024"
+  },
+  {
     "Date": "08022020",
     "Flavor": "Pina Colada",
     "Position": "10"
@@ -2037,6 +2141,10 @@
     "Date": "08022023"
   },
   {
+    "Flavor": "Key Lime",
+    "Date": "08022024"
+  },
+  {
     "Date": "08032020",
     "Flavor": "Pistachio",
     "Position": "11"
@@ -2049,6 +2157,10 @@
   {
     "Flavor": "Pistachio",
     "Date": "08032023"
+  },
+  {
+    "Flavor": "Jamocha",
+    "Date": "08032024"
   },
   {
     "Date": "08042020",
