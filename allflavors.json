@@ -3340,23 +3340,47 @@
     "Flavor": "Mint Chocolate Chip"
   },
   {
+    "Date": "11032024",
+    "Flavor": "Banana Pudding"
+  },
+  {
     "Date": "11042023",
     "Flavor": "Salted Caramel"
+  },
+  {
+    "Date": "11042024",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "11052023",
     "Flavor": "Pumpkin"
   },
   {
+    "Date": "11052024",
+    "Flavor": "S’mores"
+  },
+  {
     "Date": "11062023",
     "Flavor": "Peanut Butter"
+  },
+  {
+    "Date": "11062024",
+    "Flavor": "Maple Almond"
   },
   {
     "Date": "11072023",
     "Flavor": "Cinnamon Bun"
   },
   {
+    "Date": "11072024",
+    "Flavor": "Mint Chocolate Chip"
+  },
+  {
     "Date": "11082023",
+    "Flavor": "Chocolate Chip Cookie Dough"
+  },
+  {
+    "Date": "11082024",
     "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
@@ -3369,8 +3393,16 @@
     "Flavor": "Peppermint"
   },
   {
+    "Date": "11092024",
+    "Flavor": "Pumpkin"
+  },
+  {
     "Date": "11102023",
     "Flavor": "S’mores"
+  },
+  {
+    "Date": "11102024",
+    "Flavor": "Spiced Apple Cider"
   },
   {
     "Date": "11112022",
@@ -3382,6 +3414,10 @@
     "Flavor": "Spiced Apple Cider"
   },
   {
+    "Date": "11112024",
+    "Flavor": "Chocolate Malt"
+  },
+  {
     "Date": "11122021",
     "Flavor": "Burgundy Cherry",
     "Position": "15"
@@ -3391,32 +3427,64 @@
     "Flavor": "Jamocha"
   },
   {
+    "Date": "11122024",
+    "Flavor": "Salted Caramel"
+  },
+  {
     "Date": "11132023",
     "Flavor": "Burgundy Cherry"
+  },
+  {
+    "Date": "11132024",
+    "Flavor": "Jamocha"
   },
   {
     "Date": "11142023",
     "Flavor": "Chocolate Malt"
   },
   {
+    "Date": "11142024",
+    "Flavor": "Strawberry"
+  },
+  {
     "Date": "11152023",
     "Flavor": "Banana Pudding"
+  },
+  {
+    "Date": "11152024",
+    "Flavor": "Peanut Butter"
   },
   {
     "Date": "11162023",
     "Flavor": "Mint Chocolate Chip"
   },
   {
+    "Date": "11162024",
+    "Flavor": "Peppermint"
+  },
+  {
     "Date": "11172023",
     "Flavor": "Strawberry"
+  },
+  {
+    "Date": "11172024",
+    "Flavor": "Butter Pecan"
   },
   {
     "Date": "11182023",
     "Flavor": "Butter Pecan"
   },
   {
+    "Date": "11182024",
+    "Flavor": "Cinnamon Bun"
+  },
+  {
     "Date": "11192023",
     "Flavor": "Cinnamon Bun"
+  },
+  {
+    "Date": "11192024",
+    "Flavor": "Nutella"
   },
   {
     "Date": "11202022",
@@ -3428,6 +3496,10 @@
     "Flavor": "Salted Caramel"
   },
   {
+    "Date": "11202024",
+    "Flavor": "Chocolate Chip Cookie Dough"
+  },
+  {
     "Date": "11212021",
     "Flavor": "Butter Pecan",
     "Position": "30"
@@ -3437,12 +3509,20 @@
     "Flavor": "S’mores"
   },
   {
+    "Date": "11212024",
+    "Flavor": "Pistachio"
+  },
+  {
     "Date": "11222022",
     "Flavor": "Salted Caramel",
     "Position": "32"
   },
   {
     "Date": "11222023",
+    "Flavor": "Pumpkin"
+  },
+  {
+    "Date": "11222024",
     "Flavor": "Pumpkin"
   },
   {
@@ -3455,8 +3535,16 @@
     "Flavor": "Closed"
   },
   {
+    "Date": "11232024",
+    "Flavor": "S’mores"
+  },
+  {
     "Date": "11242023",
     "Flavor": "Spiced Apple Cider"
+  },
+  {
+    "Date": "11242024",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
     "Date": "11252022",
@@ -3468,6 +3556,10 @@
     "Flavor": "Peppermint"
   },
   {
+    "Date": "11252024",
+    "Flavor": "Peanut Butter"
+  },
+  {
     "Date": "11262021",
     "Flavor": "Nutella",
     "Position": "35"
@@ -3477,20 +3569,40 @@
     "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
+    "Date": "11262024",
+    "Flavor": "Spiced Apple Cider"
+  },
+  {
     "Date": "11272023",
     "Flavor": "Pistachio"
+  },
+  {
+    "Date": "11272024",
+    "Flavor": "Pumpkin"
   },
   {
     "Date": "11282023",
     "Flavor": "Peanut Butter"
   },
   {
+    "Date": "11282024",
+    "Flavor": "Closed"
+  },
+  {
     "Date": "11292023",
     "Flavor": "Jamocha"
   },
   {
+    "Date": "11292024",
+    "Flavor": "Peppermint"
+  },
+  {
     "Date": "11302023",
     "Flavor": "Pumpkin"
+  },
+  {
+    "Date": "11302024",
+    "Flavor": "Burgundy Cherry"
   },
   {
     "Date": "12012020",
