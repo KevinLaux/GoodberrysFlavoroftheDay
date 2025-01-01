@@ -14,6 +14,10 @@
     "Flavor": "Sweet Cream"
   },
   {
+    "Date": "01012025",
+    "Flavor": "Sweet Cream"
+  },
+  {
     "Date": "01022021",
     "Flavor": "Peppermint",
     "Position": "6"
@@ -21,6 +25,10 @@
   {
     "Date": "01022024",
     "Flavor": "Nutella"
+  },
+  {
+    "Date": "01022025",
+    "Flavor": "Pistachio"
   },
   {
     "Date": "01032021",
@@ -37,6 +45,10 @@
     "Flavor": "Strawberry"
   },
   {
+    "Date": "01032025",
+    "Flavor": "Nutella"
+  },
+  {
     "Date": "01042021",
     "Flavor": "Salted Caramel",
     "Position": "11"
@@ -44,6 +56,10 @@
   {
     "Date": "01042024",
     "Flavor": "Mint Chocolate Chip"
+  },
+  {
+    "Date": "01042025",
+    "Flavor": "Peppermint"
   },
   {
     "Date": "01052021",
@@ -3614,6 +3630,10 @@
     "Flavor": "Sweet Cream"
   },
   {
+    "Date": "12012024",
+    "Flavor": "Sweet Cream"
+  },
+  {
     "Date": "12022020",
     "Flavor": "Salted Caramel",
     "Position": "3"
@@ -3621,6 +3641,10 @@
   {
     "Date": "12022023",
     "Flavor": "Mint Chocolate Chip"
+  },
+  {
+    "Date": "12022024",
+    "Flavor": "Jamocha"
   },
   {
     "Date": "12032020",
@@ -3632,6 +3656,10 @@
     "Flavor": "Cinnamon Bun"
   },
   {
+    "Date": "12032024",
+    "Flavor": "Salted Caramel"
+  },
+  {
     "Date": "12042020",
     "Flavor": "Nutella",
     "Position": "5"
@@ -3639,6 +3667,10 @@
   {
     "Date": "12042023",
     "Flavor": "Strawberry"
+  },
+  {
+    "Date": "12042024",
+    "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
     "Date": "12052020",
@@ -3650,6 +3682,10 @@
     "Flavor": "Maple Almond"
   },
   {
+    "Date": "12052024",
+    "Flavor": "Strawberry"
+  },
+  {
     "Date": "12062020",
     "Flavor": "Butter Pecan",
     "Position": "10"
@@ -3657,6 +3693,10 @@
   {
     "Date": "12062023",
     "Flavor": "Spiced Apple Cider"
+  },
+  {
+    "Date": "12062024",
+    "Flavor": "Butter Pecan"
   },
   {
     "Date": "12072020",
@@ -3668,12 +3708,20 @@
     "Flavor": "Jamocha"
   },
   {
+    "Date": "12072024",
+    "Flavor": "Cinnamon Bun"
+  },
+  {
     "Date": "12082020",
     "Flavor": "Jamocha",
     "Position": "12"
   },
   {
     "Date": "12082023",
+    "Flavor": "Peppermint"
+  },
+  {
+    "Date": "12082024",
     "Flavor": "Peppermint"
   },
   {
@@ -3686,6 +3734,10 @@
     "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
+    "Date": "12092024",
+    "Flavor": "Burgundy Cherry"
+  },
+  {
     "Date": "12102020",
     "Flavor": "Burgundy Cherry",
     "Position": "14"
@@ -3693,6 +3745,10 @@
   {
     "Date": "12102023",
     "Flavor": "Gingerbread"
+  },
+  {
+    "Date": "12102024",
+    "Flavor": "S’mores"
   },
   {
     "Date": "12112020",
@@ -3704,6 +3760,10 @@
     "Flavor": "S’mores"
   },
   {
+    "Date": "12112024",
+    "Flavor": "Maple Almond"
+  },
+  {
     "Date": "12122020",
     "Flavor": "Peppermint",
     "Position": "16"
@@ -3711,6 +3771,10 @@
   {
     "Date": "12122023",
     "Flavor": "Eggnog"
+  },
+  {
+    "Date": "12122024",
+    "Flavor": "Chocolate Malt"
   },
   {
     "Date": "12132020",
@@ -3722,6 +3786,10 @@
     "Flavor": "Peanut Butter"
   },
   {
+    "Date": "12132024",
+    "Flavor": "Pumpkin"
+  },
+  {
     "Date": "12142020",
     "Flavor": "Pistachio",
     "Position": "21"
@@ -3729,6 +3797,10 @@
   {
     "Date": "12142023",
     "Flavor": "Rum Raisin"
+  },
+  {
+    "Date": "12142024",
+    "Flavor": "Mint Chocolate Chip"
   },
   {
     "Date": "12152020",
@@ -3740,6 +3812,10 @@
     "Flavor": "Pumpkin"
   },
   {
+    "Date": "12152024",
+    "Flavor": "Rum Raisin"
+  },
+  {
     "Date": "12162020",
     "Flavor": "Pumpkin",
     "Position": "23"
@@ -3749,6 +3825,10 @@
     "Flavor": "Peppermint"
   },
   {
+    "Date": "12162024",
+    "Flavor": "Strawberry"
+  },
+  {
     "Date": "12172020",
     "Flavor": "Chocolate Chip Cookie Dough",
     "Position": "24"
@@ -3756,6 +3836,10 @@
   {
     "Date": "12172023",
     "Flavor": "Maple Almond"
+  },
+  {
+    "Date": "12172024",
+    "Flavor": "Pistachio"
   },
   {
     "Date": "12182020",
@@ -3772,6 +3856,10 @@
     "Flavor": "Burgundy Cherry"
   },
   {
+    "Date": "12182024",
+    "Flavor": "Nutella"
+  },
+  {
     "Date": "12192020",
     "Flavor": "S'mores",
     "Position": "26"
@@ -3784,6 +3872,10 @@
   {
     "Date": "12192023",
     "Flavor": "Butter Pecan"
+  },
+  {
+    "Date": "12192024",
+    "Flavor": "Peppermint"
   },
   {
     "Date": "12202020",
@@ -3800,6 +3892,10 @@
     "Flavor": "Mint Chocolate Chip"
   },
   {
+    "Date": "12202024",
+    "Flavor": "Peanut Butter"
+  },
+  {
     "Date": "12212020",
     "Flavor": "Raspberry",
     "Position": "31"
@@ -3814,6 +3910,10 @@
     "Flavor": "Chocolate Chip Cookie Dough"
   },
   {
+    "Date": "12212024",
+    "Flavor": "Chocolate Chip Cookie Dough"
+  },
+  {
     "Date": "12222020",
     "Flavor": "Butter Pecan",
     "Position": "32"
@@ -3821,6 +3921,10 @@
   {
     "Date": "12222023",
     "Flavor": "Gingerbread"
+  },
+  {
+    "Date": "12222024",
+    "Flavor": "Eggnog"
   },
   {
     "Date": "12232020",
@@ -3837,6 +3941,10 @@
     "Flavor": "Rum Raisin"
   },
   {
+    "Date": "12232024",
+    "Flavor": "Gingerbread"
+  },
+  {
     "Date": "12242020",
     "Flavor": "Peppermint",
     "Position": "34"
@@ -3851,12 +3959,20 @@
     "Flavor": "Peppermint"
   },
   {
+    "Date": "12242024",
+    "Flavor": "Peppermint"
+  },
+  {
     "Date": "12252020",
     "Flavor": "Unfortunately Goodberry's is Closed Today :(",
     "Position": "35"
   },
   {
     "Date": "12252023",
+    "Flavor": "Closed"
+  },
+  {
+    "Date": "12252024",
     "Flavor": "Closed"
   },
   {
@@ -3869,6 +3985,10 @@
     "Flavor": "Chocolate Malt"
   },
   {
+    "Date": "12262024",
+    "Flavor": "Mint Chocolate Chip"
+  },
+  {
     "Date": "12272020",
     "Flavor": "Chocolate Chip Cookie Dough",
     "Position": "40"
@@ -3876,6 +3996,10 @@
   {
     "Date": "12272023",
     "Flavor": "Pistachio"
+  },
+  {
+    "Date": "12272024",
+    "Flavor": "Jamocha"
   },
   {
     "Date": "12282020",
@@ -3887,6 +4011,10 @@
     "Flavor": "Pumpkin"
   },
   {
+    "Date": "12282024",
+    "Flavor": "Salted Caramel"
+  },
+  {
     "Date": "12292020",
     "Flavor": "Peanut Butter",
     "Position": "42"
@@ -3894,6 +4022,10 @@
   {
     "Date": "12292023",
     "Flavor": "Salted Caramel"
+  },
+  {
+    "Date": "12292024",
+    "Flavor": "Cinnamon Bun"
   },
   {
     "Date": "12302020",
@@ -3905,12 +4037,20 @@
     "Flavor": "S’mores"
   },
   {
+    "Date": "12302024",
+    "Flavor": "Rum Raisin"
+  },
+  {
     "Date": "12312020",
     "Flavor": "Eggnog",
     "Position": "44"
   },
   {
     "Date": "12312023",
+    "Flavor": "Eggnog"
+  },
+  {
+    "Date": "12312024",
     "Flavor": "Eggnog"
   }
 ]
