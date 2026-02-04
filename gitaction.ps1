@@ -48,9 +48,9 @@ $baseUrl = "https://www.goodberrys.com/events/month/"
 # Get today's date
 $today = Get-Date
 
-# Loop over each month from June 2023 to current month
+# Loop over each month from Jan 2023 to current month
 for ($year = 2023; $year -le $today.Year; $year++) {
-    for ($month = 6; $month -le 12; $month++) {
+    for ($month = 1; $month -le 12; $month++) {
         if ($year -eq $today.Year -and $month -gt $today.Month) {
             break
         }
@@ -111,4 +111,5 @@ $grouped = $collection | Group-Object Date | ForEach-Object { $_.Group | Select-
 $unique = $grouped | Sort-Object Date | ConvertTo-Json
 
 # Write the unique entries to 'allflavors.json'
+
 $unique | Set-Content 'allflavors.json'
